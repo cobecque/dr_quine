@@ -19,10 +19,12 @@ _main:
 	push rbp
 	mov rbp, rsp
 	sub rsp, 16
+
 	lea rdi, [c]
 	mov rsi, [n]
 	lea rcx, [c]
 	mov rdx, [q]
 	call _printf
+	
 	leave
 	ret
