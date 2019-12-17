@@ -6,7 +6,7 @@
 #    By: cobecque <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/08/22 20:26:10 by cobecque          #+#    #+#              #
-#    Updated: 2019/06/26 19:27:45 by cobecque         ###   ########.fr        #
+#    Updated: 2019/08/18 15:14:36 by cobecque         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,7 @@ fclean: clean
 	@rm -rf Collen
 	@rm -rf Grace
 	@rm -rf Sully
-	@rm -rf Grace_kid.asm
+	@rm -rf Grace_kid.s
 	@rm -rf Sully_*
 	@printf "\n\n\n\n\n\n\n\n"
 	@rm -rf $(OBJ_DIR)
