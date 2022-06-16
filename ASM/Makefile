@@ -6,15 +6,15 @@
 #    By: cobecque <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/08/22 20:26:10 by cobecque          #+#    #+#              #
-#    Updated: 2019/08/18 15:14:36 by cobecque         ###   ########.fr        #
+#    Updated: 2022/06/16 23:07:46 by cobecque         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY: all Collen Grace Sully clean fclean re
 
-ASM = ~/homebrew/bin/nasm -f macho64
+ASM = nasm -f elf64
 CC = gcc
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -no-pie
 
 OBJ_DIR = ./obj
 

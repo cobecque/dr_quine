@@ -8,7 +8,7 @@
 int	main(void)
 {
 	int		i;
-	i = 5;
+	i = 10;
 	if (i > 0)
 	{
 		int		fd_fake;
